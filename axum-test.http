@@ -1,0 +1,18 @@
+GET http://localhost:5678/api/get/6
+Accept: application/json
+
+###
+### create_shortlink
+POST http://localhost:5678/api/create_shortlink
+Content-Type: application/json
+
+{
+  "url":"https://www.googleapis.com/"
+}
+
+###
+GET http://localhost:5678/api/get/123
+Accept: application/json
+
+
+###
